@@ -32,7 +32,7 @@ const ReviewSlider = () => {
                 <AiFillStar className="text-yellow-400" />
                 <AiFillStar className="text-yellow-400" />
               </div>
-              <div className="">
+              <div className="flex">
                 <div className="flex items-center space-x-4">
                   <Image
                     src={data.image}
@@ -42,11 +42,13 @@ const ReviewSlider = () => {
                     className="rounded-full"
                   />
                 </div>
-                <p className="text-sm sm:text-lg font-semibold">{data.name}</p>
-                <p className="text-gray-600 text-xs sm:text-base">
-                  Web Developer
-                </p>
               </div>
+              <p className="text-sm text-black sm:text-lg font-semibold">
+                {data.name}
+              </p>
+              <p className="text-gray-600 text-xs sm:text-base">
+                Web Developer
+              </p>
             </div>
           </SwiperSlide>
         ))}

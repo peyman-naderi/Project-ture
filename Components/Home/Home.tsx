@@ -4,7 +4,8 @@ import Nationalities from "./Nationalities/Nationalities";
 import Hotel from "./Hotel/Hotel";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import Reviwe from "./Reviwe/Reviwe";
-
+import News from "./News/News";
+import NewsEmail from "./NewsEmail/NewsEmail";
 const Home = () => {
   return (
     <div className="overflow-hidden">
@@ -13,6 +14,8 @@ const Home = () => {
       <Hotel />
       <WhyChoose />
       <Reviwe />
+      <News />
+      <NewsEmail />
     </div>
   );
 };

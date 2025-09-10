@@ -131,6 +131,7 @@ export const reviewsData = [
   },
   {
     id: 2,
+    name: "John Smith",
     image: "/images/u2.jpg",
     reviews:
       "Hilton Bosphorus was simply wonderful. The view of the Bosphorus from",
@@ -170,6 +171,7 @@ export const reviewsData = [
   },
   {
     id: 8,
+    name: "John Smith",
     image: "/images/u1.jpg",
     reviews: "Burj Al Arab in Dubai ivice was impeccable, the inter",
   },
